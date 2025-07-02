@@ -1,1 +1,56 @@
-HELLO # My Project Title
+Java is a high-level, object-oriented programming language that is platform-independent due to the Java Virtual Machine (JVM).
+JAVAC : Javac is a compiler of Java which is present in the JDK (Java Development Kit), Javac compiler is used to compile the java programs.
+JRE : Java Runtime Environment : It is used to run the Java programs. It consists of libraries and components of java.
+JDK : Java Development Kit : It is a type of java development tools kit which is used to create the java applications and tools.
+JVM : Java Virtual Machine : It is used to run the compiled byte code files and used to convert the byte code file into machine level code i.e. 0 and 1.
+The extension of java is .java and when we create any program in java, it is stored with a name of .java file and after compilation, it is converted into a .class file which is a byte code file.
+JAVA is an independent language because of its byte code and a .class file.
+The two differences between an interpreter and a compiler are :
+1) The first is in interpreter, the code is read line by line and then compile it... whereas in compiler, it compiles the whole code at once.
+2) The interpreter finds the error in every one line of the code but whereas on the other hand, the compiler shows all the errors at once!
+jvm is present in jre (java runtime environment)
+javac compiler is present in JDK KIT.
+jit (Just In time) presents in jvm environment and it helps in optimising the jaava program.
+The Just-In-Time (JIT) compiler is a component of the runtime environment that improves the performance of Java™ applications by compiling bytecodes to native machine code at run time.
+Java was first released in 1995, with development beginning in 1991 at Sun Microsystems. 
+DATA TYPES IN JAVA :
+1) Primitive : (any data type which object cannot be made is called primitive data type)
+int ;float ; double ; char
+2) Non-primitive: ( any data type which object can be made is called non-primitive data type)
+array; string .
+(*) BOXING AND UNBOXING :
+(*) SIZE OF DATA TYPES IN TERMS OF MEMORY.
+Ques : I have a data type abc, how can i define it as primitive or non primitive??
+How will i check it?
+Ques: Which is the smallest data type in terms of memory and which is the largest ?
+/* CLASS NAME ALWAYS STARTS WITH CAPITAL LETTERS */
+public class MyClass {
+   int b; //this var is inside class, so this is instance variable
+    static int s; //this can be accessed anywhere inside the class.
+    //Moreover, when we write static infront of any var, it is named as static var
+    void m1(){
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(s);
+    }
+    public static void main(String[] args)
+    {
+        int a; //this variable is inside the main method, therefore, this is local variable
+        System.out.println(s);
+    }
+}
+command to check that the git repo is connected to the main folder or not,
+ (git remote -v)
+ OUTPUT : origin  https://github.com/Yashikataneja/Bridgelab (fetch)
+          origin  https://github.com/Yashikataneja/Bridgelab (push)
+TYPES OF VARIABLE ARE :
+1) LOCAL  : THEY ARE ACCESSED INSIDE THE METHODS ONLY ; Local variables must be initialized before they can be used
+2) INSTANCE : THEY AREACCESSED INSIDE THE CLASS ONLY ; Instance variables are created when an object is instantiated, and are accessible to all the constructors, methods, or blocks in the class.
+3) STATIC  : Static variables are accessed through the class they belong to, they are declared using the static keyword, it can be accessed anywhere from static or from non static method.
+(CLASS NAME ALWAYS STARTS WITH UPPERCASE LETTERS AND METHODS NAME WITH LOWERCASE LETTERS.)
+main method is run by JVM.
+//String input=sc.nextLine();
+        the above line of code in which I have written nextLine(), that is why it is giving the string type
+        input.
+//int  input=sc.nextInt();
+    in the same manner, if i want to take the integer as an input, i will use the above code line for it.
